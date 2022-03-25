@@ -1,0 +1,69 @@
+/*_________________________________Homepage________________________________________________________*/
+body{font-family:'Open Sans', sans-serif;
+}
+
+html {
+    background-image: url("Maaemo.jpg");
+    background-repeat: no-repeat;
+    background-size :cover;
+    background-attachment: fixed;
+}
+
+.center {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+        padding-top: 220px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+}
+.subCenter {
+    text-align:center;
+    font-size: 33px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.image {
+    display: block;
+    width: 8%;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.navTop {
+    font-size: 20px;
+    display:flex;
+    justify-content:space-between;
+    /* margin-top: 50px; */
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+
+.navBottom {
+    font-size: 20px;
+    display:flex;
+    justify-content:space-between;
+    /* margin-top: 105px; */
+    padding-left: 105px;
+    padding-top: 220px;
+    padding-right: 100px;
+
+}
+
+li a { text-decoration: none; color:rgb(255, 255, 255); }
+li a:visited { text-decoration: none; color:rgb(244, 244, 244); }
+
