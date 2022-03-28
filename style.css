@@ -3,7 +3,7 @@ body{font-family:'Open Sans', sans-serif;
 }
 
 html {
-    background-image: url("Maaemo.jpg");
+    background-image: url("maaemo.jpg");
     background-repeat: no-repeat;
     background-size :cover;
     background-attachment: fixed;
@@ -63,7 +63,26 @@ img{
     padding-right: 100px;
 
 }
-
 li a { text-decoration: none; color:rgb(255, 255, 255); }
 li a:visited { text-decoration: none; color:rgb(244, 244, 244); }
 
+/* _________________________________Information______________________________________________________
+header {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+}
+
+
+.info{
+    text-align:left;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ */
